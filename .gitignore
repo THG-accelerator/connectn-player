@@ -1,0 +1,14 @@
+**/*.aux  
+**/*.nav  
+**/*.gz
+**/*.toc
+**/*.log
+**/*.out
+**/*.snm
+**/target
+**/out
+.idea/
+**/.idea/
+**/__pycache__/
+**/*.iml
+**/*.class
