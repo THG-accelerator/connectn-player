@@ -26,7 +26,7 @@ public class Board {
   }
 
   private void placeCounterAtPosition(Counter counter, int x) throws InvalidMoveException {
-    if(!isWithinBoard(new Position(x, 0))) {
+    if (!isWithinBoard(new Position(x, 0))) {
       throw new InvalidMoveException("Outside the bounds of the board");
     }
     Position position = new Position(x, getMinVacantY(x));
@@ -42,8 +42,8 @@ public class Board {
   }
 
   private int getMinVacantY(int x) {
-    for(int i = config.getHeight() - 1; i >= 0 ; i--) {
-      if(i == 0 || counterPlacements[x][i-1] != null) {
+    for (int i = config.getHeight() - 1; i >= 0; i--) {
+      if (i == 0 || counterPlacements[x][i - 1] != null) {
         return i;
       }
     }

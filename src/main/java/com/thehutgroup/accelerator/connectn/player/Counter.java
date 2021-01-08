@@ -15,7 +15,7 @@ public enum Counter {
   }
 
   public Counter getOther() {
-    if(this == X) {
+    if (this == X) {
       return O;
     } else {
       return X;
