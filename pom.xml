@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.thehutgroup.accelerator23.connectn</groupId>
+    <groupId>com.thehutgroup.accelerator.connectn</groupId>
     <artifactId>player</artifactId>
     <version>1.0</version>
 
