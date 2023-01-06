@@ -41,7 +41,7 @@
             <repository>
                 <id>github</id>
                 <name>GitHub Packages - Accelerator</name>
-                <url>https://maven.pkg.github.com/THG-accelerator/connect-n-player</url>
+                <url>https://maven.pkg.github.com/THG-accelerator/connectn-player</url>
             </repository>
         </distributionManagement>
 
