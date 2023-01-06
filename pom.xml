@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.thehutgroup.accelerator21.connectn</groupId>
+    <groupId>com.thehutgroup.accelerator23.connectn</groupId>
     <artifactId>player</artifactId>
     <version>1.0</version>
 
@@ -20,36 +20,30 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
-            <version>3.6.28</version>
+            <version>4.11.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.7.0</version>
+            <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.7.0</version>
+            <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Releases</name>
-            <url>https://artifactory.io.thehut.local/artifactory/libs-release-local</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Snapshots</name>
-            <url>https://artifactory.io.thehut.local/artifactory/libs-snapshot-local</url>
-        </snapshotRepository>
-    </distributionManagement>
-
+        <distributionManagement>
+            <repository>
+                <id>github</id>
+                <name>GitHub Packages - Accelerator</name>
+                <url>https://maven.pkg.github.com/THG-accelerator/connect-n-player</url>
+            </repository>
+        </distributionManagement>
 
     <build>
         <pluginManagement>
