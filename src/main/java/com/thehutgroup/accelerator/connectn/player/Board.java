@@ -37,7 +37,7 @@ public class Board {
     }
   }
 
-  protected Counter[][] getCounterPlacements() {
+  public Counter[][] getCounterPlacements() {
     return counterPlacements;
   }
 
